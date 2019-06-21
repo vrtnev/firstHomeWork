@@ -1,15 +1,32 @@
-#vrtnev
-# Gradle files
-.gradle/
+# Встроенные файлы приложений
+* .apk
+* .ap_
+* .aab
 
-# User-specific configurations
-*.iml
+# Локальный файл конфигурации (путь SDK и т. Д.)
+local.properties
 
-# OS-specific files
+# Gradle файлы
+.gradle /
+
+# Пользовательские конфигурации
+* .iml
+
+# ОС-специфичные файлы
 .DS_Store
 .DS_Store?
-._*
+._ *
 .Spotlight-V100
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Контроль версий
+vcs.xml
+
+# линт
+ворс / промежуточные /
+ворс / генерироваться /
+ворс / выходы /
+пух / TMP /
+пух / отчеты /
